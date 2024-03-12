@@ -1,0 +1,42 @@
+header > h1 {
+    color: blue ;
+    border-color: red;
+    border-style: dashed;
+    width: 18%;
+    font-size: larger;
+}
+
+
+#re_id {
+    background-color: yellowgreen; 
+}
+
+#frame {
+    border: 5px solid;
+    border-color: black;
+    width: 18%;
+}
+#num {
+    color: black;
+    font-size: larger;
+    padding-left: 10px;
+}
+
+main {
+    border-color: black;
+    padding-inline: 3px;
+}
+
+#equal{
+    background-color: green;
+    font-size: large;
+}
+
+#del {
+    background-color: red;
+}
+
+#zero {
+    background-color: yellow;
+    font-size: small;
+}
