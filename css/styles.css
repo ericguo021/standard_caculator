@@ -1,7 +1,10 @@
+* { 
+background-color: beige;
+
+}
+
 header > h1 {
-    color: blue ;
-    border-color: red;
-    border-style: dashed;
+    border: 2px solid red;
     width: 18%;
     font-size: larger;
 }
@@ -16,10 +19,12 @@ header > h1 {
     border-color: black;
     width: 18%;
 }
+
 #num {
-    color: black;
+    border: 2px solid orchid;
     font-size: larger;
-    padding-left: 10px;
+    padding-left: 15px;
+    
 }
 
 main {
@@ -39,4 +44,20 @@ main {
 #zero {
     background-color: yellow;
     font-size: small;
+}
+
+.classdiv, .classmul {
+    background-color: brown; }
+
+.classplus, .classminus {
+    background-color: olivedrab;
+}
+
+span::before {
+    border:2px solid black;
+}
+
+header > h1::before{
+    content: ">>";
+    color: red;
 }
